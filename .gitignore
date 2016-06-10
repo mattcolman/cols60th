@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vscode/
+working/
+build/
+*.log
+*.tmp
+*.fla
+*.swf
+*.tps
+src/.tern-project
+config.js
