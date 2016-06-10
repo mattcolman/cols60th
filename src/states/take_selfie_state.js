@@ -141,9 +141,9 @@ class TakeSelfieState extends Phaser.State {
 
     var mainGrp = this.game.make.group(null)
     mainGrp.addChild(grp)
-    grp.position.set(grp.width/2, grp.height/2)
     grp.width = this.world.width
     grp.scale.y = grp.scale.x
+    grp.position.set(grp.width/2, grp.height/2)
 
     mainGrp.addChild(this.lowerThird)
     this.lowerThird.width = grp.width
